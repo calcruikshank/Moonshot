@@ -1,0 +1,1035 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/ImportedPackages.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/1.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/1.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/10.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/10.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/10_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/10_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/11.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/11.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/11_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/11_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/12.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/12.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/12_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/12_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/13.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/13.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/13_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/13_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/14.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/14.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/14_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/14_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/15.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/15.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/15_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/15_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/16.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/16.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/16_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/16_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/17.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/17.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/17_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/17_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/18.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/18.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/18_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/18_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/19.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/19.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/19_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/19_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/1_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/1_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/2.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/2.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/20.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/20.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/20_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/20_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/21.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/21.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/21_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/21_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/22.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/22.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/22_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/22_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/23.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/23.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/23_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/23_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/24.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/24.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/24_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/24_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/25.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/25.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/25_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/25_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/26.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/26.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/26_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/26_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/27.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/27.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/27_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/27_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/28.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/28.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/28_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/28_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/29.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/29.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/29_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/29_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/2_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/2_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/3.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/3.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/30.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/30.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/30_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/30_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/31.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/31.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/31_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/31_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/32.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/32.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/32_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/32_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/33.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/33.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/33_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/33_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/34.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/34.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/34_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/34_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/35.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/35.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/35_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/35_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/36.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/36.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/36_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/36_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/37.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/37.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/37_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/37_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/38.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/38.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/38_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/38_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/39.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/39.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/39_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/39_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/3_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/3_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/4.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/4.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/40.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/40.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/40_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/40_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/41.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/41.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/41_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/41_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/42.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/42.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/42_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/42_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/4_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/4_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/5.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/5.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/5_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/5_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/6.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/6.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/6_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/6_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/7.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/7.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/7_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/7_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/8.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/8.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/8_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/8_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/9.anim
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/9.anim.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/9_0.controller
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Animations/9_0.controller.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Materials/Black.mat
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Materials/Black.mat.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/10_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/10_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/12_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/12_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/13_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/13_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/14_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/14_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/15_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/15_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/16_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/16_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/18_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/18_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/19_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/19_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/1_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/1_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/20_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/20_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/21_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/21_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/22_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/22_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/23_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/23_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/24_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/24_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/25_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/25_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/26_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/26_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/27_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/27_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/28_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/28_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/29_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/29_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/2_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/2_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/30_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/30_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/31_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/31_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/32_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/32_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/33_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/33_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/34_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/34_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/35_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/35_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/36_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/36_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/37_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/37_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/38_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/38_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/39_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/39_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/3_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/3_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/40_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/40_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/41_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/41_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/42_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/42_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/4_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/4_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/5_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/5_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/6_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/6_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/7_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/7_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/8_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/8_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/9_0.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/9_0.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/Plane.prefab
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Prefabs/Plane.prefab.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Scenes/Demo.unity
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Scenes/Demo.unity.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/1.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/1.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/10.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/10.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/11.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/11.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/12.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/12.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/13.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/13.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/14.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/14.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/15.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/15.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/16.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/16.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/17.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/17.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/18.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/18.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/19.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/19.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/2.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/2.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/20.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/20.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/21.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/21.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/22.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/22.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/23.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/23.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/24.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/24.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/25.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/25.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/26.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/26.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/27.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/27.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/28.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/28.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/29.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/29.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/3.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/3.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/30.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/30.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/31.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/31.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/32.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/32.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/33.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/33.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/34.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/34.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/35.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/35.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/36.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/36.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/37.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/37.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/38.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/38.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/39.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/39.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/4.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/4.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/40.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/40.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/41.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/41.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/42.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/42.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/5.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/5.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/6.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/6.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/7.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/7.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/8.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/8.png.meta
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/9.png
+    - Assets/ImportedPackages/Cartoon Effects Explosions Fire Water Smoke Flashes
+      Stylized/Sprites/9.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Demo Scene.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Demo Scene/Demo.unity
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Demo Scene/Demo.unity.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Demo Scene/DemoSettings.lighting
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Demo Scene/DemoSettings.lighting.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Flat Planets
+      AI.7z
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Flat Planets
+      AI.7z.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Flat Planets
+      EPS.7z
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Flat Planets
+      EPS.7z.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      2.0 Preview.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      2.0 Preview/Cream-Violet-Planet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      2.0 Preview/Cream-Violet-Planet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      2.0 Preview/Frost-Planet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      2.0 Preview/Frost-Planet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      2.0 Preview/Purple-Planet-wih-Moon.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      2.0 Preview/Purple-Planet-wih-Moon.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      2.0 Preview/Red-Lines-PLanet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      2.0 Preview/Red-Lines-PLanet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      2.0 Preview/cyan-planet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      2.0 Preview/cyan-planet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Dark-PLanet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Dark-PLanet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Ice-Planet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Ice-Planet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Orange-Planet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Orange-Planet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Purple-Planet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Purple-Planet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Red Lines PLanet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Red Lines PLanet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Red-Planet-1.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Red-Planet-1.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Red-Planet-With-Ice.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Red-Planet-With-Ice.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Sand-Planet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Sand-Planet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Storm-Planet 1.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Storm-Planet 1.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Water-Planet-wWih-Small-Islands.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/Water-Planet-wWih-Small-Islands.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/blue-planet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/blue-planet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/cyan-planet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/cyan-planet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/earth.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/earth.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/red-planet-sputnik.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background With Shadows/red-planet-sputnik.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Dark-PLanet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Dark-PLanet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Galaxy.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Galaxy.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Ice-Planet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Ice-Planet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Lava-PLanet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Lava-PLanet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Orange-Planet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Orange-Planet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Purple-Planet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Purple-Planet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Red-Planet-1.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Red-Planet-1.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Red-Planet-With-Ice.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Red-Planet-With-Ice.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Sand-Planet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Sand-Planet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Space.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Space.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Storm-Planet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Storm-Planet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Sun.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Sun.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Water-Planet-wWih-Small-Islands.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/Water-Planet-wWih-Small-Islands.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/blue-planet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/blue-planet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/cyan-planet.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/cyan-planet.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/earth-like.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/earth-like.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/red-planet-sputnik.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/red-planet-sputnik.png.meta
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/white-dwarf-star.png
+    - Assets/ImportedPackages/Planets with Space Background in Flat Style/Planets
+      and Background/white-dwarf-star.png.meta
+    - Assets/ImportedPackages/explosion set/animations/acid_burst.anim
+    - Assets/ImportedPackages/explosion set/animations/acid_burst.anim.meta
+    - Assets/ImportedPackages/explosion set/animations/acid_burst.controller
+    - Assets/ImportedPackages/explosion set/animations/acid_burst.controller.meta
+    - Assets/ImportedPackages/explosion set/animations/black_hole.anim
+    - Assets/ImportedPackages/explosion set/animations/black_hole.anim.meta
+    - Assets/ImportedPackages/explosion set/animations/black_hole.controller
+    - Assets/ImportedPackages/explosion set/animations/black_hole.controller.meta
+    - Assets/ImportedPackages/explosion set/animations/electric_blast.anim
+    - Assets/ImportedPackages/explosion set/animations/electric_blast.anim.meta
+    - Assets/ImportedPackages/explosion set/animations/electric_blast.controller
+    - Assets/ImportedPackages/explosion set/animations/electric_blast.controller.meta
+    - Assets/ImportedPackages/explosion set/animations/energy_concentrate.anim
+    - Assets/ImportedPackages/explosion set/animations/energy_concentrate.anim.meta
+    - Assets/ImportedPackages/explosion set/animations/energy_concentrate.controller
+    - Assets/ImportedPackages/explosion set/animations/energy_concentrate.controller.meta
+    - Assets/ImportedPackages/explosion set/animations/exlosion.controller
+    - Assets/ImportedPackages/explosion set/animations/exlosion.controller.meta
+    - Assets/ImportedPackages/explosion set/animations/explosion.anim
+    - Assets/ImportedPackages/explosion set/animations/explosion.anim.meta
+    - Assets/ImportedPackages/explosion set/animations/explosion_wave.anim
+    - Assets/ImportedPackages/explosion set/animations/explosion_wave.anim.meta
+    - Assets/ImportedPackages/explosion set/animations/explosion_wave.controller
+    - Assets/ImportedPackages/explosion set/animations/explosion_wave.controller.meta
+    - Assets/ImportedPackages/explosion set/animations/flash_fade.anim
+    - Assets/ImportedPackages/explosion set/animations/flash_fade.anim.meta
+    - Assets/ImportedPackages/explosion set/animations/flash_fade.controller
+    - Assets/ImportedPackages/explosion set/animations/flash_fade.controller.meta
+    - Assets/ImportedPackages/explosion set/animations/forcefield.anim
+    - Assets/ImportedPackages/explosion set/animations/forcefield.anim.meta
+    - Assets/ImportedPackages/explosion set/animations/forcefield.controller
+    - Assets/ImportedPackages/explosion set/animations/forcefield.controller.meta
+    - Assets/ImportedPackages/explosion set/animations/forcefield_bump.anim
+    - Assets/ImportedPackages/explosion set/animations/forcefield_bump.anim.meta
+    - Assets/ImportedPackages/explosion set/animations/forcefield_bump.controller
+    - Assets/ImportedPackages/explosion set/animations/forcefield_bump.controller.meta
+    - Assets/ImportedPackages/explosion set/animations/forcefield_start.anim
+    - Assets/ImportedPackages/explosion set/animations/forcefield_start.anim.meta
+    - Assets/ImportedPackages/explosion set/animations/forcefield_start.controller
+    - Assets/ImportedPackages/explosion set/animations/forcefield_start.controller.meta
+    - Assets/ImportedPackages/explosion set/animations/nova.anim
+    - Assets/ImportedPackages/explosion set/animations/nova.anim.meta
+    - Assets/ImportedPackages/explosion set/animations/nova.controller
+    - Assets/ImportedPackages/explosion set/animations/nova.controller.meta
+    - Assets/ImportedPackages/explosion set/animations/power_blast.anim
+    - Assets/ImportedPackages/explosion set/animations/power_blast.anim.meta
+    - Assets/ImportedPackages/explosion set/animations/power_blast_0.controller
+    - Assets/ImportedPackages/explosion set/animations/power_blast_0.controller.meta
+    - Assets/ImportedPackages/explosion set/animations/time_distort 1.controller
+    - Assets/ImportedPackages/explosion set/animations/time_distort 1.controller.meta
+    - Assets/ImportedPackages/explosion set/animations/time_distort.anim
+    - Assets/ImportedPackages/explosion set/animations/time_distort.anim.meta
+    - Assets/ImportedPackages/explosion set/animations/time_distort.controller
+    - Assets/ImportedPackages/explosion set/animations/time_distort.controller.meta
+    - Assets/ImportedPackages/explosion set/animations/time_distort_start.anim
+    - Assets/ImportedPackages/explosion set/animations/time_distort_start.anim.meta
+    - Assets/ImportedPackages/explosion set/animations/time_distort_start.controller
+    - Assets/ImportedPackages/explosion set/animations/time_distort_start.controller.meta
+    - Assets/ImportedPackages/explosion set/explosion_effects.unity
+    - Assets/ImportedPackages/explosion set/explosion_effects.unity.meta
+    - Assets/ImportedPackages/explosion set/explosion_effectsSettings.lighting
+    - Assets/ImportedPackages/explosion set/explosion_effectsSettings.lighting.meta
+    - Assets/ImportedPackages/explosion set/prefabs/acid_burst_button.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/acid_burst_button.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/acid_burst.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/acid_burst.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/black_hole.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/black_hole.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/electric_blast.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/electric_blast.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/energy_concentrate.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/energy_concentrate.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/exlosion.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/exlosion.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/explosion_wave.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/explosion_wave.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/flash_fade.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/flash_fade.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/forcefield.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/forcefield.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/forcefield_bump.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/forcefield_bump.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/forcefield_start.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/forcefield_start.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/nova.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/nova.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/power_blast.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/power_blast.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/time_distort.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/time_distort.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/time_distort_start.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/animation_prefabs/time_distort_start.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/blackhole_button.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/blackhole_button.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/electric_blast_button.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/electric_blast_button.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/explosion_button.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/explosion_button.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/explosion_wave_button.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/explosion_wave_button.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/forcefield_button.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/forcefield_button.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/nova_button.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/nova_button.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/pover_blast_button.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/pover_blast_button.prefab.meta
+    - Assets/ImportedPackages/explosion set/prefabs/time_distort_button.prefab
+    - Assets/ImportedPackages/explosion set/prefabs/time_distort_button.prefab.meta
+    - Assets/ImportedPackages/explosion set/scripts/acid_burst_destry.cs
+    - Assets/ImportedPackages/explosion set/scripts/acid_burst_destry.cs.meta
+    - Assets/ImportedPackages/explosion set/scripts/black_hole_destroy.cs
+    - Assets/ImportedPackages/explosion set/scripts/black_hole_destroy.cs.meta
+    - Assets/ImportedPackages/explosion set/scripts/electric_blast_destroy.cs
+    - Assets/ImportedPackages/explosion set/scripts/electric_blast_destroy.cs.meta
+    - Assets/ImportedPackages/explosion set/scripts/explosion_destroy.cs
+    - Assets/ImportedPackages/explosion set/scripts/explosion_destroy.cs.meta
+    - Assets/ImportedPackages/explosion set/scripts/explosion_wave_movement.cs
+    - Assets/ImportedPackages/explosion set/scripts/explosion_wave_movement.cs.meta
+    - Assets/ImportedPackages/explosion set/scripts/explosion_wave_start.cs
+    - Assets/ImportedPackages/explosion set/scripts/explosion_wave_start.cs.meta
+    - Assets/ImportedPackages/explosion set/scripts/flash_fade_destroy.cs
+    - Assets/ImportedPackages/explosion set/scripts/flash_fade_destroy.cs.meta
+    - Assets/ImportedPackages/explosion set/scripts/forcefield_bump_destroy.cs
+    - Assets/ImportedPackages/explosion set/scripts/forcefield_bump_destroy.cs.meta
+    - Assets/ImportedPackages/explosion set/scripts/forcefield_destroy.cs
+    - Assets/ImportedPackages/explosion set/scripts/forcefield_destroy.cs.meta
+    - Assets/ImportedPackages/explosion set/scripts/nova_destroy.cs
+    - Assets/ImportedPackages/explosion set/scripts/nova_destroy.cs.meta
+    - Assets/ImportedPackages/explosion set/scripts/power_blast_destroy.cs
+    - Assets/ImportedPackages/explosion set/scripts/power_blast_destroy.cs.meta
+    - Assets/ImportedPackages/explosion set/scripts/random_explosion_generator.cs
+    - Assets/ImportedPackages/explosion set/scripts/random_explosion_generator.cs.meta
+    - Assets/ImportedPackages/explosion set/scripts/time_distort_destroy.cs
+    - Assets/ImportedPackages/explosion set/scripts/time_distort_destroy.cs.meta
+    - Assets/ImportedPackages/explosion set/sprites/buttons.png
+    - Assets/ImportedPackages/explosion set/sprites/buttons.png.meta
+    - Assets/ImportedPackages/explosion set/sprites/explosion_set.png
+    - Assets/ImportedPackages/explosion set/sprites/explosion_set.png.meta
+    - Assets/ImportedPackages/explosion set/sprites/power_blast.png
+    - Assets/ImportedPackages/explosion set/sprites/power_blast.png.meta
+    - Assets/ImportedPackages/explosion set/sprites/space.mat
+    - Assets/ImportedPackages/explosion set/sprites/space.mat.meta
+    - Assets/Prefabs/Background.prefab
+    - Assets/Prefabs/Background.prefab.meta
+    - Assets/Prefabs/BackgroundWithStars.prefab
+    - Assets/Prefabs/BackgroundWithStars.prefab.meta
+    - Assets/Prefabs/CM vcam1.prefab
+    - Assets/Prefabs/CM vcam1.prefab.meta
+    - Assets/Prefabs/Main Camera.prefab
+    - Assets/Prefabs/Main Camera.prefab.meta
+    - Assets/Prefabs/Moon.prefab
+    - Assets/Prefabs/Moon.prefab.meta
+    - Assets/Prefabs/black_hole.prefab
+    - Assets/Prefabs/black_hole.prefab.meta
+    - Assets/Prefabs/earth (1).prefab
+    - Assets/Prefabs/earth (1).prefab.meta
+    - Assets/Prefabs/earth.prefab
+    - Assets/Prefabs/earth.prefab.meta
+    - Assets/Scenes/Level One.unity
+    - Assets/Scenes/Level One.unity.meta
+    - Assets/Scenes/Level2.unity
+    - Assets/Scenes/Level2.unity.meta
+    - Assets/Scripts/GravityTheScript.cs
+    - Assets/Scripts/MoonShotController.cs
+    - Assets/Scripts/Starfield.cs
+    - Assets/Scripts/Starfield.cs.meta
+    - ProjectSettings/EditorBuildSettings.asset
+    - 
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
