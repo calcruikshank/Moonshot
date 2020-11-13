@@ -54,6 +54,12 @@ MonoBehaviour:
   startingVelocity: 9
   blackHolePrefab: {fileID: 8043490871669539782, guid: d00aae56cf8f42b45ab2779bf9475c66, type: 3}
   newBlackHole: {fileID: 0}
+  explosionPrefab: {fileID: 4496925493525217479, guid: 52314dadc30ec7043a535074e64eb7ef, type: 3}
+  newExplosion: {fileID: 0}
+  topSpeed: 80
+  moonCollided: 0
+  addedMoonToVictoryInt: 0
+  moonJuice: {fileID: 0}
 --- !u!50 &6584347896226354137
 Rigidbody2D:
   serializedVersion: 4
@@ -161,7 +167,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 1272abcfc4128a240af29d27ceee237f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

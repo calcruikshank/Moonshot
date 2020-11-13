@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class MoonShotController : MonoBehaviour
 {
 
@@ -16,75 +17,85 @@ public class MoonShotController : MonoBehaviour
     public GameObject newBlackHole;
 
     public GameObject explosionPrefab;
+    public GameObject newExplosion;
 
     public float topSpeed = 80f;
+    public bool moonCollided = false;
 
-    // Start is called before the first frame update
-    void Start()
+    public bool addedMoonToVictoryInt = false;
+
+    public MoonJuice moonJuice;
+    
+
+    void Awake()
     {
-        moonRB.AddForce(-transform.up * startingVelocity * Time.deltaTime * 165, ForceMode2D.Impulse);
+        moonCollided = false;
+        moonRB.AddForce(-transform.up * startingVelocity * 3.3f, ForceMode2D.Impulse);
+        
     }
 
+
+    void Start()
+    {
+        moonJuice = FindObjectOfType<MoonJuice>();
+    }
     // Update is called once per frame
     void Update()
     {
         
         //Debug.Log(moonRB.velocity.magnitude);
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && moonJuice.currentJuice >= 0)
         {
+
             Vector3 mousePosition = GetMousePosition();
             newBlackHole = Instantiate(blackHolePrefab, new Vector3(mousePosition.x, mousePosition.y, 0f), Quaternion.identity);
+            
+            
         }
-        if (Input.GetButton("Fire1"))
-        {
-            //SetBlackHoleTransform();
-            //ChargeMoonShot();
-            GetDirection();
+        
 
-            MoonShot();
-
-        }
-
-        if (Input.GetButtonUp("Fire1"))
+        if (Input.GetButtonUp("Fire1") || moonJuice.currentJuice < 0)
         {
             //GetDirection();
             //MoonShot();
             Destroy(newBlackHole);
 
         }
-       
+        if (Input.GetButton("Fire1") && newBlackHole != null)
+        {
+            
+            if (moonJuice.currentJuice >= 0f)
+            {
+                SetBlackHoleTransform();
+                
+            }
+
+
+        }
 
     }
     public void FixedUpdate()
     {
         if (Input.GetButton("Fire1") && newBlackHole != null)
         {
-            SetBlackHoleTransform();
+            moonJuice.currentJuice -= 1f;
+            if (moonJuice.currentJuice >= 0f)
+            {
+                SetBlackHoleTransform();
+                GetDirection();
+                MoonShot();
+            }
             
 
         }
-    }
 
-    public void ChargeMoonShot()
-    {
-        
-        chargeTimer += Time.deltaTime;
-        appliedForce += Time.deltaTime * 60;
-        if (appliedForce > 70)
-        {
-            appliedForce = 70;
-        }
-        //Debug.Log(appliedForce);
     }
 
     public void MoonShot()
     {
-        appliedForce = .5f;
-        moonRB.AddForce(direction * appliedForce * Time.deltaTime * 165, ForceMode2D.Impulse);
-        if (moonRB.velocity.magnitude > topSpeed)
-        {
-            moonRB.velocity = moonRB.velocity.normalized * topSpeed;
-        }
+        appliedForce = 1.65f;
+        moonRB.AddForce(direction * appliedForce, ForceMode2D.Impulse);
+        
         
     }
 
@@ -111,13 +122,22 @@ public class MoonShotController : MonoBehaviour
         newBlackHole.transform.position = blackHolePosition;
     }
 
-    public void MoonCollision()
+    public void MoonCollision(Transform otherCollision)
     {
+        if (moonCollided == false)
+        {
+            newExplosion = Instantiate(explosionPrefab, new Vector3(transform.position.x, transform.position.y, 0f), Quaternion.identity);
+            newExplosion.transform.up = newExplosion.transform.position - otherCollision.position;
+            gameObject.SetActive(false);
+            moonCollided = true;
+        }
+        
+
         if (newBlackHole != null)
         {
             Destroy(newBlackHole);
-            gameObject.SetActive(false);
         }
+       
         
     }
 

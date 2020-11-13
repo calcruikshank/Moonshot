@@ -59,6 +59,12 @@ public class Starfield : MonoBehaviour
 	void Update()
 	{
 
+
+	}
+
+	void FixedUpdate()
+    {
+
 		Vector3 newPos = theCamera.position * ParallaxFactor;                   // Calculate the position of the object
 		newPos.z = 0;                       // Force Z-axis to zero, since we're in 2D
 		transform.position = newPos;
@@ -88,6 +94,5 @@ public class Starfield : MonoBehaviour
 			Stars[i].position = pos - transform.position;
 		}
 		Particles.SetParticles(Stars, Stars.Length);
-
 	}
 }
