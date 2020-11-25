@@ -6,7 +6,7 @@ public class Satellite : MonoBehaviour
 {
 
     public float startingVelocity = 0f;
-    public float startingHorizontalVelocity = 10f;
+    
     public Rigidbody2D rb;
     public CircleCollider2D deathZoneCollider;
 
@@ -17,7 +17,7 @@ public class Satellite : MonoBehaviour
     void Awake()
     {
         rb.AddForce(-transform.up * startingVelocity * 3.3f, ForceMode2D.Impulse);
-        rb.AddForce(-transform.right * startingHorizontalVelocity * 3.3f, ForceMode2D.Impulse);
+        transform.Rotate(0, 0, Random.Range(0, 360));
     }
     void Start()
     {
@@ -26,15 +26,16 @@ public class Satellite : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         MoonShotController[] moonsArray = FindObjectsOfType<MoonShotController>();
         foreach (MoonShotController moon in moonsArray)
         {
             
-            if (deathZoneCollider.IsTouching(moon.gameObject.GetComponent<CircleCollider2D>()))
+            /*if (deathZoneCollider.IsTouching(moon.gameObject.GetComponent<CircleCollider2D>()))
             {
 
                 moon.MoonCollision(this.transform);
-            }
+            }*/
 
         }
     }

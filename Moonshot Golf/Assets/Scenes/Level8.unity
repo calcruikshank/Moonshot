@@ -130,6 +130,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100565207410909880, guid: b5cc689bfc72bb64b8648143092a0fdf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2ac0db94ff1d5c041bafd13526beb3c4, type: 3}
+    - target: {fileID: 1293089181426816454, guid: b5cc689bfc72bb64b8648143092a0fdf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f61845ff0fcabb149af7e9f6d8b660ea, type: 3}
+    - target: {fileID: 1293089181426816455, guid: b5cc689bfc72bb64b8648143092a0fdf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1293089181426816455, guid: b5cc689bfc72bb64b8648143092a0fdf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1500101580454852605, guid: b5cc689bfc72bb64b8648143092a0fdf, type: 3}
       propertyPath: m_Name
       value: Level8
@@ -138,6 +154,26 @@ PrefabInstance:
       propertyPath: asteroidPrefab
       value: 
       objectReference: {fileID: 6130381629234143781, guid: 1d7d071678de70044902e7478f355ff0, type: 3}
+    - target: {fileID: 2734065888955528937, guid: b5cc689bfc72bb64b8648143092a0fdf, type: 3}
+      propertyPath: respawnTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4218582012825122635, guid: b5cc689bfc72bb64b8648143092a0fdf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 946c2d6c1621c1449b842ae06de460b2, type: 3}
+    - target: {fileID: 4468074078840813914, guid: b5cc689bfc72bb64b8648143092a0fdf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a11c432b67c633f4dbd20598771446b0, type: 3}
+    - target: {fileID: 4468074078840813915, guid: b5cc689bfc72bb64b8648143092a0fdf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468074078840813915, guid: b5cc689bfc72bb64b8648143092a0fdf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6828528845913746908, guid: b5cc689bfc72bb64b8648143092a0fdf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 26.758272
@@ -181,6 +217,10 @@ PrefabInstance:
     - target: {fileID: 6828528845913746908, guid: b5cc689bfc72bb64b8648143092a0fdf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840446340188330053, guid: b5cc689bfc72bb64b8648143092a0fdf, type: 3}
+      propertyPath: massOfPlanet
+      value: 300
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5cc689bfc72bb64b8648143092a0fdf, type: 3}

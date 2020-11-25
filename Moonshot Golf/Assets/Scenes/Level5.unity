@@ -130,6 +130,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 300957927702077944, guid: aa7cbf0f750d5d2409a6e8f3f01e6ae6, type: 3}
+      propertyPath: startingVelocity
+      value: -700
+      objectReference: {fileID: 0}
+    - target: {fileID: 300957927702077947, guid: aa7cbf0f750d5d2409a6e8f3f01e6ae6, type: 3}
+      propertyPath: m_Mass
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 300957927702077950, guid: aa7cbf0f750d5d2409a6e8f3f01e6ae6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18.3
@@ -186,6 +194,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -13.159992
       objectReference: {fileID: 0}
+    - target: {fileID: 300957929144832199, guid: aa7cbf0f750d5d2409a6e8f3f01e6ae6, type: 3}
+      propertyPath: startingVelocity
+      value: 800
+      objectReference: {fileID: 0}
     - target: {fileID: 1629426450772404341, guid: aa7cbf0f750d5d2409a6e8f3f01e6ae6, type: 3}
       propertyPath: massOfPlanet
       value: 500
@@ -198,6 +210,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -468.90002
       objectReference: {fileID: 0}
+    - target: {fileID: 6450068152187971062, guid: aa7cbf0f750d5d2409a6e8f3f01e6ae6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 71ac7bd0a112e0445a75d4cf6d697128, type: 3}
     - target: {fileID: 6450068152187971063, guid: aa7cbf0f750d5d2409a6e8f3f01e6ae6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.4

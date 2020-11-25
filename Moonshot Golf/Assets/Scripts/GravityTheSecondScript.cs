@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GravityTheSecondScript : MonoBehaviour
 {
@@ -12,12 +13,16 @@ public class GravityTheSecondScript : MonoBehaviour
     public float distanceFromPlanet;
     public MoonJuice moonJuice;
     public float moonTimer;
-
+    public Text restartText;
+    public Color originalColor;
+    public float fadeOutTime = 1f;
     //if you expect this to be an accurate calculation of mass and gravity then you would be very wrong
 
     void Start()
     {
         moonJuice = FindObjectOfType<MoonJuice>();
+        originalColor = Color.white;
+        restartText = GameObject.Find("RestartText").GetComponent<Text>();
     }
 
     void Update()
@@ -41,8 +46,14 @@ public class GravityTheSecondScript : MonoBehaviour
                     moonJuice.currentJuice += .4f;
                 }
                 //Debug.Log(moonTimer);
-
+                restartText.color = Color.clear;
             }
+            
+            if (moonTimer <= 0 && moonJuice.currentJuice <= 0)
+            {
+                StartCoroutine(FadeInRoutine());
+            }
+            
             if (deathZoneCollider.IsTouching(moon.gameObject.GetComponent<CircleCollider2D>()))
             {
                 
@@ -57,7 +68,7 @@ public class GravityTheSecondScript : MonoBehaviour
             if (areaOfInfluence.bounds.Contains(satellite.transform.position))
             {
                 Orbit(satellite);
-
+                satellite.transform.Rotate(0, 0, 50 * Time.deltaTime);
             }
 
             if (deathZoneCollider.IsTouching(satellite.gameObject.GetComponent<CircleCollider2D>()))
@@ -80,7 +91,9 @@ public class GravityTheSecondScript : MonoBehaviour
         Vector3 force = (distanceVector.normalized * amountOfGravity);
 
         moonToAttract.AddForce(force * 2, ForceMode2D.Impulse);
-        
+
+        AudioManager._Main.SetOrbitMeterRate(distanceFromPlanet);
+        AudioManager._Main.SetWhiteNoiseVol(distanceFromPlanet, massOfPlanet);
     }
 
     void Orbit(Satellite objToAttract)
@@ -95,6 +108,22 @@ public class GravityTheSecondScript : MonoBehaviour
         Vector3 force = (distanceVector.normalized * amountOfGravity);
 
         satToAttract.AddForce(force * 2, ForceMode2D.Impulse);
+
     }
 
+    private IEnumerator FadeInRoutine()
+   {
+
+       for (float t = 0.01f; t < fadeOutTime; t += Time.deltaTime)
+       {
+           restartText.color = Color.Lerp(Color.clear, originalColor, Mathf.Min(1, t * fadeOutTime));
+           //Debug.Log("nice");
+           yield return null;
+
+       }
+
+
+
+   }
+    
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Onslaught : MonoBehaviour
 {
     private const float PLAYERDISTANCESPAWN = 200f;
-    public float respawnTime = .2f;
+    public float respawnTime = .5f;
     private MoonShotController moonShotController;
     public Transform playerTransform;
     public GameObject asteroidPrefab;
@@ -28,7 +28,7 @@ public class Onslaught : MonoBehaviour
     private void SpawnObstacle()
     {
         GameObject a = Instantiate(asteroidPrefab) as GameObject;
-        a.transform.position = new Vector2(playerTransform.position.x + 70, Random.Range(playerTransform.position.y - 50, playerTransform.position.y + 50));
+        a.transform.position = new Vector2(playerTransform.position.x + 70, Random.Range(playerTransform.position.y, playerTransform.position.y + 100));
     }
 
     IEnumerator AsteroidWave()

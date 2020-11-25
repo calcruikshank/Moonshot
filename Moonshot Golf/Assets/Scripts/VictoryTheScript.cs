@@ -30,6 +30,7 @@ public class VictoryTheScript : MonoBehaviour
             if (Input.GetButtonDown("Fire1"))
             {
                 moonTimer = 0f;
+                AudioManager._Main.RestartOrbitMeter();
             }
             if (areaOfInfluence.bounds.Contains(moon.transform.position))
             {
@@ -47,7 +48,6 @@ public class VictoryTheScript : MonoBehaviour
                 {
                     orbitingMoons--;
                     moon.addedMoonToVictoryInt = false;
-
                 }
 
             }
@@ -69,6 +69,7 @@ public class VictoryTheScript : MonoBehaviour
     {
         Debug.Log("Victory");
         //gameManager.CompleteLevel();
+        AudioManager._Main.PlayWin();
         FindObjectOfType<GameManager>().CompleteLevel();
     }
 
